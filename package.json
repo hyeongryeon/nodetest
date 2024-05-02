@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
+    "backend": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit1"
   },
   "author": "gudfus29112",
   "license": "seoul",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.19.2",
     "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
